@@ -5,7 +5,7 @@ from typing import List, Dict
 from tabulate import tabulate
 
 # Configure the Gemini API for synthesizing
-GOOGLE_API_KEY = "AIzaSyDGKVnWUcM_vrl-PXTYZ7ZVeDo4gzJHluw"
+GOOGLE_API_KEY = "Gemini api key"
 if not GOOGLE_API_KEY:
     raise ValueError("Please set the GOOGLE_API_KEY environment variable.")
 genai.configure(api_key=GOOGLE_API_KEY)
